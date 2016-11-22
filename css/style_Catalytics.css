@@ -1,0 +1,253 @@
+/*whitish background = #F4F4F4, orange= #FFA500, blue = "#1E90FF"
+dark grey = #D5D5D5*/
+
+
+body {
+  overflow: hidden;
+  background-color: white;
+  margin: 0;
+  font-size: 11px;
+  font-family: "Helvetica", Helvetica;
+}
+
+#chart {                /*Glyph*/
+  position: absolute;
+  z-index: 1;
+}
+
+#chart2 {             /*Slope Graph*/
+  position: absolute;
+  background-color: #f1f1f1;
+  /*border: 1px solid black;*/
+  height: 200px;
+  width: 550px;
+  top: 105px;
+  left: 610px;
+}
+
+#legend {
+    position: absolute;
+    top: 160px;
+    left: 350px;
+    z-index: 2;
+}
+
+line.slope-line{
+      stroke:brown
+}
+
+text.slope-label{
+      fill:black;
+      font: 12px "Trebuchet MS";
+}
+
+path { 
+    stroke: grey;
+    stroke-width: 1px;
+    fill: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+#chart-space {      /*Multiline Graph & the title */
+    float: left;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    /*background-color: #F4F4F4;*/
+    letter-spacing:0pt;
+    word-spacing:2pt;
+    text-align:left;
+    line-height:1;
+    padding-left: 10px;
+
+}
+
+#map {
+    position: absolute;
+    top: 523px;
+    background-color: lightblue;
+}
+
+
+#extraTextBox {
+    position: absolute;
+    font-family: "Helvetica", Helvetica;
+    height: 100px;
+    width: 240px;
+    left: 1045px;
+    font-size: 10px;
+}
+
+#u1 {
+    position: absolute;
+    top: 25px;
+}
+
+#u2 {
+    position: absolute;
+    top: 50px;
+}
+
+#year {
+    position: absolute;
+    top: 5px;
+}
+
+#option {
+    position: absolute;
+    top: 74px;
+    left: 607px;
+    float:left;
+}
+
+#reset {
+    position: absolute;
+    top: 74px;
+    left: 670px;
+}
+
+/* Tab selection start */
+#tabContainer {
+    position: absolute;
+    /*border: 1px solid black;*/
+    top: 315px;
+    left: 610px;
+    height: 480px;
+    width: 650px;
+}
+
+#graph16 {
+    float:left;
+    height: 352px;
+    width: 630px;
+}
+
+#graph15 {
+    float:left;
+    height: 352px;
+    width: 630px;
+}
+
+#graph14 {
+    float:left;
+    height: 352px;
+    width: 630px;
+    }
+
+#graph13 {
+    float:left;
+    height: 352px;
+    width: 630px;
+}
+
+#graph12 {
+    float:left;
+    height: 352px;
+    width: 630px;
+}
+
+#graph99 {
+    float:left;
+    height: 352px;
+    width: 630px;
+}
+
+#ternaryplot99 {
+    float:left;
+    top: 350px;
+    left: 350px;
+}    
+
+#ternaryplot16 {
+    float:left;
+    top: 350px;
+    left: 350px;
+}    
+
+#ternaryplot15 {
+    float:left;
+    top: 350px;
+    left: 350px;
+}            
+
+#ternaryplot14 {
+    float:left;
+    top: 350px;
+    left: 350px;
+}             
+
+#ternaryplot13 {
+    float:left;
+    top: 350px;
+    left: 350px;
+}    
+
+#ternaryplot12 {
+    float:left;
+    top: 350px;
+    left: 350px;
+}
+
+#replacedTernary {
+    float:left;
+    height: 350px;
+    width: 620px;
+}
+
+#ternary {
+    float:left;
+}
+
+#glyph {
+    float: left
+    width: 620px;
+}
+
+ /* Style the list */
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 12px 15px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {background-color: #ddd;}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {background-color: #ccc;}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.tabcontent {
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s; /* Fading effect takes 1 second 
+} */
